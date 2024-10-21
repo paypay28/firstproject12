@@ -1,0 +1,25 @@
+*{box-sizing: border-box;}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(5, 0, 71);
+    color: white;
+}
+
+#about{
+    padding: 40px 0;
+}
+
+.landing-div{
+    height: 100vh;
+}
+
+.landing-h1{
+    text-shadow: 2px 2px 2px yellow;
+    font-size: calc(48px + (96 - 48) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.about-text{
+    font-size:20px;
+}
